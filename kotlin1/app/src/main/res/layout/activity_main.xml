@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/projectandro"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Masjid"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/moonbold"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:id="@+id/jadwal"
+                android:text="Jadwal"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/moonbold"
+                android:textColor="#ffffff"
+                >
+            </Button>
+
+
+            <Button
+                android:text="Masjid"
+                android:id="@+id/identitas"
+                android:layout_marginTop="10dp"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/moonbold"
+                android:textColor="#ffffff"
+                >
+            </Button>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/moonbold"
+                android:textColor="#ffffff"
+                android:id="@+id/pengumuman"
+                android:text="Pengumuman"
+              >
+            </Button>
+
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/moonbold"
+                android:textColor="#ffffff"
+                android:id="@+id/marquee"
+                android:text="Marquee"
+                >
+            </Button>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/moonbold"
+                android:textColor="#ffffff"
+                android:id="@+id/tagline"
+                android:text="Tagline"
+             >
+            </Button>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/moonbold"
+                android:textColor="#ffffff"
+                android:id="@+id/slideshow"
+                android:text="Slideshow"
+                >
+            </Button>
+
+    </LinearLayout>
+</LinearLayout>

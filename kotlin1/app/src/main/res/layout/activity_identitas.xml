@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".identitas"
+    android:background="@drawable/siji">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/moonbold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Masjid"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/moonbold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/moonbold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/moonbold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Masjid"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/moonbold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/moonbold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/data_nama"
+            android:gravity="center"
+            android:hint="nama masjid"
+            android:textColor="#ffffff"
+            android:width="200dp"
+            android:height="50dp"
+            android:fontFamily="@font/moonbold"
+            android:background="@drawable/custom_button2"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="identitas masjid"
+            android:id="@+id/data_identitas"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:width="200dp"
+            android:height="50dp"
+            android:fontFamily="@font/moonbold"
+            android:background="@drawable/custom_button2"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsimpan"
+        android:text="Simpan"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/balik"
+        android:text="Kembali"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal">
+    </Button>
+</LinearLayout>
